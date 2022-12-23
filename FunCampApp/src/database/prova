@@ -1,0 +1,22 @@
+query1.setBounds(50, 50, 200, 100);query1.setContentAreaFilled(false);query1.setMargin(new Insets(-1,-1,-1,-1));query1.setBorder(new LineBorder(Color.black,2));
+		query2.setBounds(350, 50, 200, 100);query2.setContentAreaFilled(false);query2.setMargin(new Insets(-1,-1,-1,-1));query2.setBorder(new LineBorder(Color.black,2));
+		query3.setBounds(650, 50, 200, 100);query3.setContentAreaFilled(false);query3.setMargin(new Insets(-1,-1,-1,-1));query3.setBorder(new LineBorder(Color.black,2));
+		query4.setBounds(950, 50, 200, 100);query4.setContentAreaFilled(false);query4.setMargin(new Insets(-1,-1,-1,-1));query4.setBorder(new LineBorder(Color.black,2));
+		query5.setBounds(50, 200, 200, 100);query5.setContentAreaFilled(false);query5.setMargin(new Insets(-1,-1,-1,-1));query5.setBorder(new LineBorder(Color.black,2));
+		query6.setBounds(350, 200, 200, 100);query6.setContentAreaFilled(false);query6.setMargin(new Insets(-1,-1,-1,-1));query6.setBorder(new LineBorder(Color.black,2));
+		query7.setBounds(650, 200, 200, 100);query7.setContentAreaFilled(false);query7.setMargin(new Insets(-1,-1,-1,-1));query7.setBorder(new LineBorder(Color.black,2));
+		query8.setBounds(950, 200, 200, 100);query8.setContentAreaFilled(false);query8.setMargin(new Insets(-1,-1,-1,-1));query8.setBorder(new LineBorder(Color.black,2));
+		query9.setBounds(50, 350, 200, 100);query9.setContentAreaFilled(false);query9.setMargin(new Insets(-1,-1,-1,-1));query9.setBorder(new LineBorder(Color.black,2));
+		query10.setBounds(350, 350, 200, 100);query10.setContentAreaFilled(false);query10.setMargin(new Insets(-1,-1,-1,-1));query10.setBorder(new LineBorder(Color.black,2));
+		query11.setBounds(650, 350, 200, 100);query11.setContentAreaFilled(false);query11.setMargin(new Insets(-1,-1,-1,-1));query11.setBorder(new LineBorder(Color.black,2));
+		query12.setBounds(950, 350, 200, 100);query12.setContentAreaFilled(false);query12.setMargin(new Insets(-1,-1,-1,-1));query12.setBorder(new LineBorder(Color.black,2));
+		query11a.setBounds(650, 500, 200, 100);query11a.setContentAreaFilled(false);query11a.setMargin(new Insets(-1,-1,-1,-1));query11a.setBorder(new LineBorder(Color.black,2));
+		query12a.setBounds(950, 500, 200, 100);query12a.setContentAreaFilled(false);query12a.setMargin(new Insets(-1,-1,-1,-1));query12a.setBorder(new LineBorder(Color.black,2));
+		select.setBounds(350, 500, 200, 100);select.setContentAreaFilled(false);select.setMargin(new Insets(-1,-1,-1,-1));select.setBorder(new LineBorder(Color.black,2));
+		submit.setBounds(300, 610, 100, 50);submit.setContentAreaFilled(false);submit.setMargin(new Insets(-1,-1,-1,-1));submit.setBorder(new LineBorder(Color.black,2));
+		
+		
+		Graphics2D g2 = (Graphics2D)g;
+		g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER,0.2f));
+		g2.drawImage(br,0, 0, getWidth(), getHeight(), null);
+		g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER,1f));
